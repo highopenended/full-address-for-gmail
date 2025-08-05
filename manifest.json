@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Full Address for Gmail",
+  "version": "1.0.0",
+  "description": "Shows the complete Gmail account address in the Gmail interface",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://mail.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_title": "Full Address for Gmail"
+  }
+} 

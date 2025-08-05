@@ -1,0 +1,20 @@
+{
+  "name": "full-address-for-gmail",
+  "version": "1.0.0",
+  "description": "Chrome extension to show complete Gmail account addresses",
+  "main": "content.js",
+  "scripts": {
+    "build": "echo 'No build process needed for this extension'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "chrome-extension",
+    "gmail",
+    "email",
+    "account"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+} 
